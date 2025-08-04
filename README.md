@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎭 VibeSync/HOSTR — AI-Powered Chaotic Party Planner
 
-## Getting Started
+**VibeSync/HOSTR** isn’t here to make your party stress-free — it’s here to make it **hilariously unpredictable**. This full-stack AI-powered party planning app curates the worst (and funniest) experiences possible, from awkward icebreakers to unhinged food pairings and sabotaged playlists. It's not an app — it's a social experiment.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔥 What It Does
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ✅ **Chaotic Invitations** — Sends cryptic or absurd RSVPs that may contain wrong dates or forms without "Yes" options.
+- ✅ **Unhinged Event Planning** — Suggests bizarre food, drinks, and awkward social activities like staring contests or interpretive dance.
+- ✅ **Sabotaged Playlists** — Integrates with Spotify to select playlist themes that deliberately clash with the vibe.
+- ✅ **Shared Party Album** — Guests can upload party pics with AI-generated, regret-inducing captions.
+- ✅ **The VibeSync Effect** — No off-switch for chaos. The entire app is engineered for unpredictable entertainment.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎭 Inspiration
 
-## Learn More
+Planning a party should be fun, but it usually isn’t. Between coordinating logistics and keeping guests engaged, it turns into a job.  
+So we built **VibeSync** — not to help, but to **create entertaining disasters**. It's your worst party ideas, amplified by AI.
 
-To learn more about Next.js, take a look at the following resources:
+> "What if AI didn’t assist, but actively *ruined* your party?"
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Our answer: Mismatched playlists, nightmare food combos, and forced awkward interactions — for maximum legendary storytelling.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠 How We Built It
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend**: [Next.js] + Tailwind CSS for sleek and reactive UI
+- **Backend**: Python (Flask) + MongoDB for user data and event logic
+- **AI Integration**: OpenAI API + Fetch.AI agents for wild suggestions
+- **Spotify API**: Dynamically generates sabotaged playlists
+- **Google Cloud**: Used for storage and coordination tools
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🚧 Challenges We Faced
+
+- Integrating ChatGPT API into Fetch.AI agents  
+- Configuring email sender logic for RSVP chaos  
+- Merging Flask API with a Next.js frontend  
+- Spotify authentication and playlist control  
+- Coordinating cross-stack state management
+
+---
+
+## 🏆 Accomplishments
+
+- 🎉 Built a working prototype in under 24 hours  
+- 🎶 Integrated Spotify to *intentionally sabotage* playlists  
+- 💬 Created AI agents that invent awkward party scenarios  
+- 📸 Delivered shared party albums with AI-generated captions  
+- 🤖 Made party planning delightfully ridiculous
+
+---
+
+## 📚 What We Learned
+
+- AI isn’t just for productivity — it’s for **fun** and **chaos** too  
+- How to blend Flask and Next.js in a single stack  
+- That not everyone enjoys screamo during dinner (but we do)  
+- The value of humor and unpredictability in app design  
+- Working with multiple APIs under tight deadlines
+
+---
+
+## 🚀 What’s Next
+
+- 🔥 **Advanced Chaos Engine** — Worse food, worse games, worse playlists  
+- 💾 **Decentralized RSVP System** — Blockchain-powered invite mayhem  
+- 🎧 **Dynamic Playlist Disruption** — Chaotic song transitions & audio drops  
+- 🧠 **Themed AI Hosts** — Choose from sarcastic, creepy, or DJ elevator mode  
+- 🕹 **IoT Integration** — Control fog machines, alarms, or lighting at random
+
+---
+
+## 💻 Tech Stack
+
+| Layer        | Tech                                 |
+|--------------|--------------------------------------|
+| Frontend     | Next.js, Tailwind CSS                |
+| Backend      | Flask (Python), MongoDB              |
+| AI Services  | OpenAI API, Fetch.AI Agents          |
+| Integrations | Spotify API, Google Cloud Storage    |
+
+---
+
+## 📬 Contact
+
+Built with ❤️ by **Aditya Jindal**  
+Open to feedback, contributions, and collaboration!
